@@ -10,13 +10,13 @@ Aplicação web local desenvolvida com **Node.js** para baixar e converter playl
 - **Compactação em `.zip`:** Empacota todas as faixas numeradas (`01 - Título.mp3`) e realiza a limpeza automática dos arquivos temporários no servidor após o download.
 - **Interface limpa:** Frontend simples e direto para colar o link e iniciar a conversão instantaneamente.
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Backend:** Node.js, Express, Archiver, Child Process (`spawn`)
 - **Frontend:** HTML5, CSS3, JavaScript (Fetch API / Blob)
 - **Ferramentas de Sistema:** `yt-dlp` e `FFmpeg`
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```text
 playlist_converx/
