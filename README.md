@@ -2,6 +2,10 @@
 
 Aplicação web local desenvolvida com **Node.js** para baixar e converter playlists inteiras do YouTube para arquivos MP3, compactando todas as faixas automaticamente em um único arquivo `.zip` direto pelo navegador.
 
+#Necessidade
+
+Essa aplicação foi desenvolvida a partir do problema de ter que baixar manualmente( uma por uma) músicas de uma playlist do youtube, onde dependendo do tamanho demorava horas. E isso também era feito através de sites duvidosos lotados de anúncios talvez maliciosos. Então com o auxílio de alguns agentes de IA, desenvolvi este projeto para ter maior velocidade nesse processo e ter mais segurança ao converter em mp3 
+
 ##  Funcionalidades
 
 - **Download extenso:** Baixa todas as músicas disponíveis de uma playlist "separadamente" a partir de um único link.
