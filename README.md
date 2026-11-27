@@ -4,9 +4,9 @@ Aplicação web local desenvolvida com **Node.js** para baixar e converter playl
 
 ##  Funcionalidades
 
-- **Download em lote:** Baixa todas as músicas disponíveis de uma playlist pública a partir de um único link.
+- **Download em lote:** Baixa todas as músicas disponíveis de uma playlist separadamente a partir de um único link.
 - **Conversão automática:** Extrai o áudio original e converte para MP3 de alta qualidade (192kbps) via FFmpeg.
-- **Tolerância a falhas:** Ignora vídeos privados, removidos ou bloqueados na playlist (`--ignore-errors`) sem interromper o processo.
+- **Tolera falhas:** Ignora vídeos privados, removidos ou bloqueados na playlist (`--ignore-errors`) sem interromper o processo.
 - **Compactação em `.zip`:** Empacota todas as faixas numeradas (`01 - Título.mp3`) e realiza a limpeza automática dos arquivos temporários no servidor após o download.
 - **Interface limpa:** Frontend simples e direto para colar o link e iniciar a conversão instantaneamente.
 
@@ -45,7 +45,7 @@ npm install
 node server.js
 
 5. E por fim abra o servidor "http://localhost:3000", e cole o link da playlist
-
+```
 
 
 ## Autor
